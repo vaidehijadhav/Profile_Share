@@ -22,7 +22,7 @@
                 <h3>Web Developer</h3>
             </div>
             <div class="bottom-group">
-                <button class="btn-share btn-card">
+                <button class="btn-share btn-card" onclick="openModal()">
                     <div>Share my profile</div>
                 </button>
 
@@ -43,31 +43,27 @@
         <div>
             <h3>Share this via</h3>
             <div class="iconContainer">
-                <a
-                  href="https://www.facebook.com/priyansh.patel.94651"
-                  class="icon"
-                  id="facebook"
-                >
-                  <i class="fa-brands fa-facebook-f"></i>
+                <a href="https://www.facebook.com/" class="icon" id="facebook">
+                    <i class="fa-brands fa-facebook"></i>
                 </a>
-                <a href="https://twitter.com/priyansh79" class="icon" id="twitter">
+                <a href="https://twitter.com/" class="icon" id="twitter">
                   <i class="fa-brands fa-twitter"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/_p_r_i_y_a_n_s_h/"
-                  class="icon"
-                  id="instagram"
-                >
+                  href="https://www.instagram.com/" class="icon" id="instagram">
                   <i class="fa-brands fa-instagram"></i>
                 </a>
                 <a href="https://web.whatsapp.com/" class="icon" id="whatsapp">
                   <i class="fa-brands fa-whatsapp"></i>
                 </a>
-                <a href="https://web.telegram.org/z/" class="icon" id="telegram">
+                <a href="https://web.telegram.org/" class="icon" id="telegram">
                   <i class="fa-brands fa-telegram"></i>
                 </a>
               </div>
         </div>
     </div>
+
+    <!-- overlay -->
+    <div onclick="closeModal()" class="overlay"></div>
 </body>
 </html>
