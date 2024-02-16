@@ -114,3 +114,27 @@
     padding: 9px 12px;
     transition: all 0.5s;
   }
+
+  .btnShare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  }
+  
+  .btnFollow {
+    width: 150px;
+  }
+
+  .btnFollow a{
+    text-decoration: none;
+    color: #ffffffb9;
+  }
+  
+  .btnFollow:hover a{
+    color: #131313;
+  }
+  .btn:hover {
+    background: #ffffffb9;
+    color: #131313;
+  }
